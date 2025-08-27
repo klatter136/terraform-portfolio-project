@@ -1,1 +1,1 @@
-# Project-5-Terraform-portfolio-project
+# Project 5 - Terraform-portfolio-project
