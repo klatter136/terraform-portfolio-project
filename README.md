@@ -228,15 +228,16 @@ terraform init
 terraform plan
 # Review for any issues and resolve if needed
 terraform apply
+
 Step 3: Upload the Next.js Static Site to S3
 aws s3 sync ../blog/out s3://your-bucket-name
 Note: Make sure you're using the correct path to your Next.js build output folder and the correct S3 bucket name.
 
 Step 4: Access the Deployed Website
-Get the CloudFront URL
-
+Get the CloudFront URL:
 terraform output cloudfront_url
-Access Your Website Open the CloudFront URL in your web browser to view your deployed Next.js portfolio site.
+
+Access Your Website - Open the CloudFront URL in your web browser to view your deployed Next.js portfolio site.
 
 <img width="1911" height="1024" alt="image" src="https://github.com/user-attachments/assets/15cd0b8a-8c94-47e9-adf6-fee18be7699a" />
 
