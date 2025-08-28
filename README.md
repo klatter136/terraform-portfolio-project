@@ -23,6 +23,9 @@ Cost-Effective: Optimized hosting costs without unnecessary expenses
 
 Fast Loading: Quick loading times for all visitors globally
 
+
+
+
 Project Objectives
 By completing this project, you will:
 
@@ -35,6 +38,9 @@ Configure global content delivery with AWS CloudFront
 Apply security and performance best practices
 
 Host all project files and code on GitHub
+
+
+
 
 Understanding Next.js
 What is Next.js?
@@ -63,6 +69,9 @@ Corporate Websites: Scalable sites for handling significant traffic
 Web Applications: From simple dashboards to complex web apps
 
 Blogs and Content Sites: Easy-to-maintain, SEO-friendly content platforms
+
+
+
 
 Step 1: Prepare the Next.js Application
 
@@ -113,6 +122,7 @@ This will generate a static export of your Next.js application in the out direct
 
 
 
+
  
 
 Step 1: Initialize Git and Push to GitHub
@@ -122,6 +132,9 @@ git add .
 git commit -m "Initial commit of Next.js portfolio starter kit"
 git remote add origin https://github.com/<your-username>/terraform-portfolio-project.git
 git push -u origin master
+
+
+
 
 Step 2: Set Up Terraform Configuration
 Create Project Directory
@@ -235,9 +248,15 @@ terraform init
 terraform plan
 terraform apply
 
+
+
+
 Step 3: Upload the Next.js Static Site to S3
 aws s3 sync ../blog/out s3://your-bucket-name
 Note: Make sure you're using the correct path to your Next.js build output folder and the correct S3 bucket name.
+
+
+
 
 Step 4: Access the Deployed Website
 Get the CloudFront URL:
