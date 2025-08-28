@@ -233,7 +233,6 @@ Initialize and Apply Terraform
 
 terraform init
 terraform plan
-# Review for any issues and resolve if needed
 terraform apply
 
 Step 3: Upload the Next.js Static Site to S3
