@@ -237,3 +237,6 @@ Get the CloudFront URL
 
 terraform output cloudfront_url
 Access Your Website Open the CloudFront URL in your web browser to view your deployed Next.js portfolio site.
+
+<img width="1911" height="1024" alt="image" src="https://github.com/user-attachments/assets/15cd0b8a-8c94-47e9-adf6-fee18be7699a" />
+
