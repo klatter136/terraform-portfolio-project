@@ -65,6 +65,7 @@ Web Applications: From simple dashboards to complex web apps
 Blogs and Content Sites: Easy-to-maintain, SEO-friendly content platforms
 
 Step 1: Prepare the Next.js Application
+
 1.1 Create a GitHub Repository
 Go to GitHub and create a new repository named terraform-portfolio-project
 
@@ -73,14 +74,17 @@ Initialize the repository with a README file
 Clone the repository to your local machine: 
 
 git clone https://github.com/<your-username>/terraform-portfolio-project.gitcd terraform-portfolio-project
+
 1.2 Clone the Next.js Portfolio Starter Kit
 Clone the Portfolio Starter Kit:
 
 npx create-next-app@latest nextjs-blog --use-npm --example "https://github.com/vercel/next-learn/tree/main/basics/learn-starter"
+
 Navigate to the project directory and start the development server:
 
 cd blog
 npm run dev
+
 Access your Next.js application at http://localhost:3000/
 
 
@@ -99,10 +103,12 @@ const nextConfig = {
 }
 
 module.exports = nextConfig
+
 Build Your Project
 After setting up the configuration, run the build command:
 
 npm run build
+
 This will generate a static export of your Next.js application in the out directory, which can be deployed to any static hosting service.
 
 
@@ -110,6 +116,7 @@ This will generate a static export of your Next.js application in the out direct
  
 
 Step 1: Initialize Git and Push to GitHub
+
 git init
 git add .
 git commit -m "Initial commit of Next.js portfolio starter kit"
